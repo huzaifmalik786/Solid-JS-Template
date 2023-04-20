@@ -6,6 +6,7 @@ import Navbar from '../components/Navbar';
 
 const About: Component = () => {
     return (
+        
         <div>
             {/* <Navbar/> */}
             <HeroBanner/>
