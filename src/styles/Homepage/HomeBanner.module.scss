@@ -1,0 +1,58 @@
+.container{
+    height: 550px;
+    width: 100%;
+    position: relative;
+    .image{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    .overlay{
+        position: absolute;
+        top: 0;
+        background: rgba(0,0,0,0.6);
+        width: 100%;
+        height: 100%;
+    }
+    .content{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        padding-top: 80px;
+        padding-left: 50px;
+        .header{
+            color: rgb(169, 169, 169);
+            font-size: 20px;
+            letter-spacing: 2px;
+            margin: 0;
+        }
+        .paragraph{
+            color: white;
+            font-size: 28px;
+            letter-spacing: 2px;
+            line-height: 40px;
+            margin: 25px 0;
+        }
+        a{
+            button{
+                background: transparent;
+                padding: 15px 30px;
+                cursor: pointer;
+                color: white;
+                letter-spacing: 3px;
+                border: 1px solid white;
+                transition: all 0.3s;
+                &:hover{
+                    background-color: #0f0f0f;
+                }
+            }
+        }
+    }
+}
